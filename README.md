@@ -1,4 +1,8 @@
-code-jokes
-==========
+Collection of Code Jokes
+========================
 
-Mainly a word-play mixed with code. Feel free to contribute.
+(c) @ProfNandaa, 2014
+
+My collection of code jokes, mainly a word-play mixed with code. 
+
+Feel free to contribute.
