@@ -6,9 +6,9 @@ Let's do a function that does not take in any argument or "plea"
 function myFaith(){
 	//does not take in any argument
 	if(arguments.length > 0){
-		if(argument[0] == "plea"){
+		if(arguments[0] == "plea"){
 			return {
-				message: "I need no other argument, I need no other plae",
+				message: "I need no other argument, I need no other plea",
 				url: "https://www.hymnal.net/en/hymn/h/330"
 			}
 		}
@@ -24,10 +24,10 @@ function myFaith(){
 	}
 }
 
-myFaith("plea");
+console.log(myFaith("plea"));
 
-myFaith("argument");
+console.log(myFaith("argument"));
 
-myFaith();
+console.log(myFaith());
 
 
