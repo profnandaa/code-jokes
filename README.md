@@ -1,4 +1,4 @@
-Collection of Code Jokes
+My Collection of Code Jokes
 ========================
 
 (c) @ProfNandaa, 2014
