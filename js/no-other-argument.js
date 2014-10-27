@@ -10,17 +10,17 @@ function myFaith(){
 			return {
 				message: "I need no other argument, I need no other plea",
 				url: "https://www.hymnal.net/en/hymn/h/330"
-			}
+			};
 		}
 		return {
 			message: "I need no other argument",
 			url: "https://www.hymnal.net/en/hymn/h/330"
-		}
+		};
 	}else{
 		return {
 			message: "Glad you know I need no other argument :)",
 			url: "https://www.hymnal.net/en/hymn/h/330"
-		}
+		};
 	}
 }
 
