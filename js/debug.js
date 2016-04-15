@@ -12,7 +12,7 @@ var debug = function(){
   var min = 0;
   var findBugs = function(max,min){return Math.floor(Math.random() * (max - min)) + min;};
   var bugs = findBugs(max,min);
-  if (bugs == 0) {
+  if (bugs === 0) {
     console.log(bugs + " bugs found. Your code is clean!");
   } else {
     console.log(bugs + " have been found!");
@@ -20,7 +20,7 @@ var debug = function(){
     var j = 0;
     for (var i = bugs; i > 0; i--) {
       j++;
-      console.log("Bug #" + j + " fixed!")
+      console.log("Bug #" + j + " fixed!");
     }
     console.log("All the bugs have been fixed!");
     console.log("The debugger is done.");
